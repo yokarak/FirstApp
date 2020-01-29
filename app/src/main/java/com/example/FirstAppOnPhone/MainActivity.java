@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
 
         stopMeButton = findViewById(R.id.secondaryButton);
 
+        String url = "https://api.chucknorris.io/jokes/random";
+
         final MediaPlayer mediaPlayer = MediaPlayer.create(this,R.raw.sample);
 
         clickeMeMainButton.setOnClickListener(new View.OnClickListener() {
@@ -44,6 +46,11 @@ public class MainActivity extends AppCompatActivity {
                 mediaPlayer.stop();
             }
         });
+
+
+        MyAPICall myAPICall = new MyAPICall();
+
+        myAPICall.makesomethingCall(helloWorldText, url, this );
 
 
     }

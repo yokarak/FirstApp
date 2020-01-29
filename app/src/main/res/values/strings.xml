@@ -3,4 +3,5 @@
     <string name="MainText">Hello world number 2</string>
     <string name="Button">Click Me!</string>
     <string name="secondaryButton">Stop Audio</string>
+    <string name="picture">picture</string>
 </resources>
