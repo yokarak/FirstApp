@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirstAppWithMads</string>
+    <string name="MainText">Hello world number 2</string>
+    <string name="Button">Click Me!</string>
+</resources>
